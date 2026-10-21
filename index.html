@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>De Jong B.V. | Straatwerk en grondwerk op Bonaire</title>
+<meta name="description" content="Klinkers, sierbestrating, grondwerk en tuinaanleg op Bonaire. Voor overheid, aannemer en particulier. Showroom aan de Kaya Amsterdam 29.">
+<link rel="icon" href="img/mark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/courtyard-street.jpg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#top" aria-label="De Jong B.V., naar boven">
+      <img src="img/mark.png" alt="" width="34" height="34">
+      <span>DE JONG B.V.</span>
+    </a>
+    <nav class="nav" aria-label="Hoofdmenu">
+      <a href="#diensten">Diensten</a>
+      <a href="#stenen">Stenen</a>
+      <a href="#projecten">Projecten</a>
+      <a href="#showroom">Showroom</a>
+    </nav>
+    <a class="btn btn-solid top-cta" href="https://wa.me/5997011136?text=Bon%20dia%2C%20ik%20wil%20graag%20een%20offerte." target="_blank" rel="noopener">App ons</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Straatwerk en grondwerk op Bonaire</p>
+      <h1>Straatwerk dat blijft liggen.</h1>
+      <p class="lede">Klinkers, grondwerk en tuinen. Voor overheid, aannemer en particulier.</p>
+      <div class="hero-cta">
+        <a class="btn btn-solid" href="https://wa.me/5997011136?text=Bon%20dia%2C%20ik%20wil%20graag%20een%20offerte." target="_blank" rel="noopener">Vraag een offerte via WhatsApp</a>
+        <a class="btn btn-line" href="#stenen">Bekijk de stenen</a>
+      </div>
+      <p class="hero-note">35 jaar vakwerk. Showroom aan de Kaya Amsterdam 29.</p>
+    </div>
+    <figure class="hero-img">
+      <img src="img/courtyard-street.jpg" alt="Rood-bruine klinkers in keperverband bij Courtyard Bonaire" width="1067" height="800" fetchpriority="high">
+    </figure>
+  </section>
+
+  <section class="services wrap" id="diensten">
+    <div class="services-head rv">
+      <h2>Wat we doen</h2>
+      <p>Van de eerste schep zand tot de laatste klinker. Eén ploeg, één aanspreekpunt.</p>
+    </div>
+    <ol class="svc-list">
+      <li class="svc rv">
+        <img src="img/cordia-herringbone.jpg" alt="Antraciet klinkers in keperverband bij Garage Cordia" loading="lazy" width="480" height="360">
+        <div>
+          <h3>Straatwerk en sierbestrating</h3>
+          <p>Opritten, terrassen, pleinen en wegen. In elk legpatroon dat u wilt.</p>
+        </div>
+      </li>
+      <li class="svc rv">
+        <img src="img/boatyard-crew.jpg" alt="Ploeg legt grijze klinkers op een groot terrein" loading="lazy" width="480" height="360">
+        <div>
+          <h3>Grondwerk en riolering</h3>
+          <p>Ophogen, egaliseren, afwateren. De basis die u later niet meer ziet.</p>
+        </div>
+      </li>
+      <li class="svc rv">
+        <img src="img/zebra-done.jpg" alt="Nieuw zebrapad van witte en zwarte klinkers" loading="lazy" width="480" height="360">
+        <div>
+          <h3>Infrastructuur voor de overheid</h3>
+          <p>Wegen, stoepen en zebrapaden. Snel klaar, zodat het verkeer weer kan.</p>
+        </div>
+      </li>
+      <li class="svc rv">
+        <img src="img/garden-beds.jpg" alt="Tuin met plantenbakken en grijze bestrating" loading="lazy" width="480" height="360">
+        <div>
+          <h3>Tuinaanleg en onderhoud</h3>
+          <p>Tuinen die tegen zon, droogte en een tropische bui kunnen.</p>
+        </div>
+      </li>
+      <li class="svc rv">
+        <img src="img/tiles-wood.jpg" alt="Tegels in houtlook naast elkaar in de showroom" loading="lazy" width="480" height="360">
+        <div>
+          <h3>Winkel: stenen, tegels, zand en grind</h3>
+          <p>Klinkers, opsluitbanden, tegels, zand, grind en worteldoek. Ook voor wie zelf legt.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section class="picker" id="stenen">
+    <div class="wrap picker-in">
+      <div class="picker-copy rv">
+        <h2>Kies uw steen en patroon</h2>
+        <p>Zie hoe het eruit komt te liggen. Stuur het daarna direct door.</p>
+
+        <fieldset class="field">
+          <legend>Kleur</legend>
+          <div class="swatches" id="colors"></div>
+        </fieldset>
+
+        <fieldset class="field">
+          <legend>Legpatroon</legend>
+          <div class="chips" id="patterns"></div>
+        </fieldset>
+
+        <div class="field">
+          <label for="m2">Oppervlakte in m²</label>
+          <input id="m2" type="number" inputmode="decimal" min="1" max="20000" value="40">
+          <p class="help" id="count" aria-live="polite"></p>
+        </div>
+
+        <a class="btn btn-solid" id="send" href="#" target="_blank" rel="noopener">Stuur deze keuze via WhatsApp</a>
+      </div>
+
+      <div class="picker-view rv">
+        <div class="preview" aria-hidden="true"><svg id="preview" viewBox="0 0 600 450" preserveAspectRatio="xMidYMid slice"></svg></div>
+        <figure class="real">
+          <img id="real-img" src="img/courtyard-street.jpg" alt="" loading="lazy" width="320" height="240">
+          <figcaption id="real-cap">Zo ligt hij er bij Courtyard Bonaire.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="work wrap" id="projecten">
+    <div class="work-head rv">
+      <h2>Gelegd op Bonaire</h2>
+      <div class="filters" role="group" aria-label="Filter projecten">
+        <button type="button" class="chip is-on" data-f="alle" aria-pressed="true">Alles</button>
+        <button type="button" class="chip" data-f="overheid" aria-pressed="false">Overheid</button>
+        <button type="button" class="chip" data-f="zakelijk" aria-pressed="false">Zakelijk</button>
+        <button type="button" class="chip" data-f="particulier" aria-pressed="false">Particulier</button>
+      </div>
+    </div>
+    <div class="grid">
+      <figure class="tile t-wide rv" data-c="zakelijk"><img src="img/courtyard-curve.jpg" alt="Gemêleerde klinkerweg langs gele appartementen" loading="lazy" width="1067" height="800"><figcaption><b>Courtyard Bonaire</b> Toegangsweg in keperverband</figcaption></figure>
+      <figure class="tile rv" data-c="overheid"><img src="img/airport-wob.jpg" alt="Lichte bestrating voor de verkeerstoren van de luchthaven" loading="lazy" width="1000" height="507"><figcaption><b>Bij de luchthaven</b> Rijbaan en parkeerterrein, 2020</figcaption></figure>
+      <figure class="tile t-tall rv" data-c="particulier"><img src="img/pool-terrace.jpg" alt="Terras van grote grijze tegels rond een zwembad" loading="lazy" width="1067" height="800"><figcaption><b>Terras rond zwembad</b> Particulier, 2019</figcaption></figure>
+      <figure class="tile rv" data-c="zakelijk"><img src="img/hexagon.jpg" alt="Grijze zeshoekige tegels" loading="lazy" width="1000" height="507"><figcaption><b>Chirino Dental Clinic</b> Zeshoekige tegels</figcaption></figure>
+      <figure class="tile rv" data-c="overheid"><img src="img/zebra-work.jpg" alt="Ploeg in hesjes legt een zebrapad" loading="lazy" width="1000" height="507"><figcaption><b>Zebrapaden</b> Gelegd in een paar dagen, 2021</figcaption></figure>
+      <figure class="tile t-wide rv" data-c="particulier"><img src="img/seaview-drive.jpg" alt="Grijze natuursteen oprit met zicht op zee" loading="lazy" width="1000" height="508"><figcaption><b>Oprit met zeezicht</b> Hoogteverschil opgevangen, 2020</figcaption></figure>
+      <figure class="tile rv" data-c="zakelijk"><img src="img/cordia-detail.jpg" alt="Antraciet keperverband met witte parkeerlijnen" loading="lazy" width="1067" height="800"><figcaption><b>Garage Cordia</b> Parkeerterrein, 2019</figcaption></figure>
+      <figure class="tile rv" data-c="zakelijk"><img src="img/boatyard-wide.jpg" alt="Groot terrein vol grijze klinkers in aanleg" loading="lazy" width="1067" height="800"><figcaption><b>Boatyard</b> Duizenden m² klinkers, 2020</figcaption></figure>
+      <figure class="tile rv" data-c="particulier"><img src="img/garden-terrace.jpg" alt="Lounge terras met grote tegels en plantenbakken" loading="lazy" width="1067" height="800"><figcaption><b>Tuin en terras</b> Particulier, 2018</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="supply">
+    <div class="wrap">
+      <div class="supply-head rv">
+        <h2>Van de boot tot de laatste klinker</h2>
+        <p>Wij halen de stenen zelf naar het eiland. Invoer, transport en vergunningen? Dat kennen we.</p>
+      </div>
+    </div>
+    <div class="strip" tabindex="0" aria-label="Fotostrook van haven tot bouwplaats">
+      <figure><img src="img/ship-lift.jpg" alt="Pallets klinkers worden van het schip gehesen" loading="lazy" width="1600" height="900"><figcaption>Aankomst in de haven</figcaption></figure>
+      <figure><img src="img/ship-hold.jpg" alt="Ruim van het schip vol pallets stenen" loading="lazy" width="1600" height="900"><figcaption>Gelost uit het ruim</figcaption></figure>
+      <figure><img src="img/ship-trucks.jpg" alt="Vrachtwagens met opleggers vol stenen" loading="lazy" width="1600" height="900"><figcaption>Op de oplegger naar de werf</figcaption></figure>
+      <figure><img src="img/cordia-loader.jpg" alt="Shovel brengt een pallet klinkers naar de bouwplaats" loading="lazy" width="1067" height="800"><figcaption>En dan op de bouwplaats</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="why wrap">
+    <figure class="why-img rv"><img src="img/courtyard-path.jpg" alt="Pad van rood-bruine klinkers in keperverband langs een gevel" loading="lazy" width="1067" height="800"></figure>
+    <div class="why-copy rv">
+      <h2>Waarom klinkers, en geen asfalt?</h2>
+      <p class="big">Een klinker neemt minder hitte op. En straalt die minder uit.</p>
+      <p>Na een tropische bui een gat? Een paar stenen eruit, nieuwe erin. Klaar.</p>
+      <p>Onze straatstenen zijn NEN-gecertificeerd. De test doet u zelf in de showroom. Klinkt hij als een klinker en blijft hij heel? Dan is het een echte.</p>
+    </div>
+  </section>
+
+  <section class="visit" id="showroom">
+    <div class="wrap visit-in">
+      <div class="visit-info rv">
+        <h2>Kom de stenen zien</h2>
+        <p>Loop langs de uitstalling. Neem de maten mee. We maken ter plekke een prijs.</p>
+        <dl class="facts">
+          <div><dt>Showroom en werf</dt><dd>Kaya Amsterdam 29<br>Kralendijk, Bonaire</dd></div>
+          <div><dt>Telefoon en WhatsApp</dt><dd><a href="tel:+5997011136">+599 701 1136</a></dd></div>
+          <div><dt>E-mail</dt><dd><a href="mailto:dejongbvbonaire@gmail.com">dejongbvbonaire@gmail.com</a></dd></div>
+        </dl>
+        <a class="btn btn-line" href="https://maps.google.com/?q=Kaya+Amsterdam+29,+Kralendijk,+Bonaire" target="_blank" rel="noopener">Route in Google Maps</a>
+        <figure class="visit-img"><img src="img/stones-sand.jpg" alt="Twee soorten klinkers als proefstuk op het zand" loading="lazy" width="1067" height="800"></figure>
+      </div>
+
+      <form class="quote rv" id="quote" novalidate>
+        <h3>Offerte aanvragen</h3>
+        <div class="f">
+          <label for="q-name">Naam</label>
+          <input id="q-name" name="name" autocomplete="name" required>
+          <p class="err" id="q-name-err" hidden>Vul uw naam in.</p>
+        </div>
+        <div class="f">
+          <label for="q-contact">Telefoon of e-mail</label>
+          <input id="q-contact" name="contact" autocomplete="tel" required>
+          <p class="err" id="q-contact-err" hidden>Hoe kunnen we u bereiken?</p>
+        </div>
+        <div class="f">
+          <label for="q-kind">Wat wilt u laten doen?</label>
+          <select id="q-kind" name="kind">
+            <option>Oprit of terras</option>
+            <option>Tuin</option>
+            <option>Grondwerk of riolering</option>
+            <option>Project voor bedrijf of overheid</option>
+            <option>Alleen materiaal kopen</option>
+          </select>
+        </div>
+        <div class="f">
+          <label for="q-msg">Vertel er iets meer over</label>
+          <textarea id="q-msg" name="msg" rows="3"></textarea>
+          <p class="help">Een foto sturen? Dat kan straks in WhatsApp.</p>
+        </div>
+        <button class="btn btn-solid" type="submit">Verstuur via WhatsApp</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div class="foot-brand">
+      <img src="img/mark.png" alt="" width="40" height="40">
+      <p><b>De Jong B.V.</b><br>Straatwerk, grondwerk en tuinen op Bonaire.</p>
+    </div>
+    <nav class="foot-nav" aria-label="Footer">
+      <a href="#diensten">Diensten</a>
+      <a href="#stenen">Stenen</a>
+      <a href="#projecten">Projecten</a>
+      <a href="#showroom">Showroom</a>
+      <a href="https://www.facebook.com/dejongbvbonaire/" target="_blank" rel="noopener">Facebook</a>
+    </nav>
+  </div>
+  <p class="wrap preview-note">Voorstel van Salty Code Studio. Alle foto's zijn eigen werk van De Jong B.V.</p>
+</footer>
+
+<div class="dock">
+  <a href="tel:+5997011136">Bellen</a>
+  <a class="dock-wa" href="https://wa.me/5997011136?text=Bon%20dia%2C%20ik%20wil%20graag%20een%20offerte." target="_blank" rel="noopener">WhatsApp</a>
+</div>
+
+<script src="site.js"></script>
+</body>
+</html>
